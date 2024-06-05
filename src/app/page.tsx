@@ -26,10 +26,7 @@ export default function Home() {
             </span>
 
             <div className="mt-6 flex items-center justify-center">
-              <button
-                href="#"
-                className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52"
-              >
+              <button className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52">
                 <span className="flex space-x-4 items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +42,7 @@ export default function Home() {
                 </span>
               </button>
 
-              <button
-                href="#"
-                className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52 mx-3"
-              >
+              <button className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52 mx-3">
                 <span className="flex space-x-4 items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -78,10 +72,7 @@ export default function Home() {
             </div>
 
             <div className="flex items-center justify-center mt-8">
-              <button
-                href="#"
-                className="font-bold text-xl flex items-center justify-center space-x-4 bg-[#0054ae] p-3 rounded-lg w-full max-w-72"
-              >
+              <button className="font-bold text-xl flex items-center justify-center space-x-4 bg-[#0054ae] p-3 rounded-lg w-full max-w-72">
                 <svg
                   viewBox="0 0 512 512"
                   width="16"
