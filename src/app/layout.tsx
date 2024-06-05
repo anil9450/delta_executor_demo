@@ -16,7 +16,66 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="{inter.className}">
+        <div className="max-w-screen-lg mx-auto">
+          <header>
+            <nav>
+              <div className="">
+                <ul className="flex items-center justify-center p-4 bg-black text-white space-x-16 font-bold mb-2">
+                  <li className="font-bold text-3xl">
+                    <a href="#">Delta Executor</a>
+                  </li>
+                  <li className="mt-2">
+                    <a href="#">Delta Executor Key</a>
+                  </li>
+                  <li className="mt-2">
+                    <a href="#">Delta Executor PC</a>
+                  </li>
+                  <li className="mt-2">
+                    <a href="#">Discord Server</a>
+                  </li>
+                  <li className="mt-2">
+                    <a href="#">Server Status</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+          {children}
+
+          <footer>
+            <div className="">
+              <ul className="flex items-center justify-center p-8 bg-black text-white space-x-80 font-bold">
+                <li>
+                  <h1>
+                    Copyright © 2023 -
+                    <a href="#" className="text-blue-600">
+                      Delta Executor
+                    </a>
+                    <span className="px-2">All right reserved.</span>
+                    <img
+                      src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4"
+                      alt="DMCA.com Protection Status"
+                      className="px-32"
+                    />
+                  </h1>
+                </li>
+                <li>
+                  <h1>
+                    <a href="/privacy-policy/" className="text-blue-600 px-6">
+                      Privacy Policy
+                    </a>
+                    <a href="/contact-us/" className="text-blue-600">
+                      Contact Us
+                    </a>
+                  </h1>
+                </li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+      </body>
     </html>
   );
 }
