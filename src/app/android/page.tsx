@@ -97,19 +97,22 @@ export default function ContactUs() {
             and others.
           </p>
 
-          <div className="mt-4">
+          <div className="mx-auto overflow-hidden md:max-w-24xl mt-4">
             <h1 className="text-blue-600 font-bold text-4xl text-center">
               What Is Delta Executor?
             </h1>
-            <div className="mt-4 flex">
-              <Image
-                src="/Image/Delta-Executor-official1.webp"
-                className="rounded border border-blue-500 shadow shadow-blue-500/100"
-                width={300}
-                height={150}
-                alt="Picture of the author"
-              />
-              <div className="p-4">
+            <div className="mt-4 md:flex">
+              <div className="md:shrink-0 mt-12">
+                <Image
+                  src="/Image/Delta-Executor-official1.webp"
+                  className="rounded border border-blue-500 shadow shadow-blue-500/100"
+                  width={300}
+                  height={150}
+                  alt="Picture of the author"
+                />
+              </div>
+
+              <div className="p-4 block">
                 <p className="text-white">
                   Delta is one of the most popular{" "}
                   <span className="text-blue-600">Roblox</span> Mobile Executors
@@ -663,11 +666,11 @@ export default function ContactUs() {
                 </section>
               </div>
 
-              <div className="">
+              <div className="mx-auto overflow-hidden md:max-w-24xl mt-4">
                 <p className="text-white">
                   <span className="text-blue-600">Delta Executor</span>
                 </p>
-                <div className="mt-4 flex">
+                <div className="mt-4 md:flex">
                   <div className="p-4">
                     <p className="text-white mt-4">
                       Want to download the latest version of{" "}
@@ -772,13 +775,15 @@ export default function ContactUs() {
                     </p>
                   </div>
 
-                  <Image
-                    src="/Image/Delta-Executor-official1.webp"
-                    className="rounded border border-blue-500 shadow shadow-blue-500/100"
-                    width={300}
-                    height={150}
-                    alt="Picture of the author"
-                  />
+                  <div className="md:shrink-0">
+                    <Image
+                      src="/Image/Delta-Executor-official1.webp"
+                      className="rounded border border-blue-500 shadow shadow-blue-500/100"
+                      width={300}
+                      height={150}
+                      alt="Picture of the author"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
