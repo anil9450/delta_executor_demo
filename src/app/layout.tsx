@@ -164,7 +164,15 @@ export default function RootLayout({
                   Delta Executor™
                 </a>
                 . All Rights Reserved.
+                <a href="https://www.dmca.com/Protection/Status.aspx?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4&cdnrdr=1&refurl=https://delta-executor.com/">
+                  <img
+                    src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4"
+                    alt="DMCA.com Protection Status"
+                    className="mx-auto"
+                  />
+                </a>
               </span>
+
               <ul className="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
                 <li>
                   <a
