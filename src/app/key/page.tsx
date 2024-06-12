@@ -1,4 +1,4 @@
-export default function Windows() {
+export default function DeltaExecutorKey() {
   return (
     <div className="bg-black">
       <div className="ml-8 mr-8 text-justify mb-2">
@@ -14,199 +14,162 @@ export default function Windows() {
           {" "}
           Delta Executor PC : How to Download Delta X on Windows (June 2024){" "}
         </span>
+
+        <h1 className="text-blue-600 text-4xl font-bold mt-4">
+          How To Get Delta Executor Key (June 2024) | Delta Android Key Guide
+        </h1>
+
         <p className="text-white mt-4">
-          June 1, 2024 by
+          June 1 , 2024 by
           <span className="text-blue-600"> Delta Team</span>
         </p>
-        <div className="mt-4">
-          <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-            <div className="shrink-0">
-              <img
-                className="h-12 w-12"
-                src="/img/logo.svg"
-                alt="ChitChat Logo"
-              />
-            </div>
-            <div>
-              <div className="text-xl font-medium text-black">ChitChat</div>
-              <p className="text-slate-500">You have a new message!</p>
-            </div>
+
+        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
+          <div className="shrink-0">
+            <img
+              className="h-12 w-12"
+              src="/img/logo.svg"
+              alt="ChitChat Logo"
+            />
           </div>
-          <p className="mt-4 text-white">
-            Want to download{" "}
-            <a className="text-blue-600" href="/">
-              Delta Executor
+          <div>
+            <div className="text-xl font-medium text-black">ChitChat</div>
+            <p className="text-slate-500">You have a new message!</p>
+          </div>
+        </div>
+
+        <p className="text-white mt-4">
+          Want to run{" "}
+          <a className="text-blue-600" href="">
+            Roblox
+          </a>{" "}
+          Scripts but don’t know how to get the
+          <a className="text-blue-600" href="">
+            Delta Mobile key
+          </a>
+          .
+        </p>
+
+        <p className="text-white mt-4">
+          If YES then you should not skip reading this post. In this post, we
+          will explain the easiest way to obtain Delta Executor key.
+        </p>
+
+        <p className="text-white mt-4">
+          Since Delta Mobile needs a key to run{" "}
+          <a className="text-blue-600" href="">
+            Roblox
+          </a>{" "}
+          scripts, a lot of users are having a hard time obtaining its key.
+        </p>
+
+        <p className="text-white mt-4">
+          Like Hydrogen and other{" "}
+          <a className="text-blue-600" href="">
+            Roblox
+          </a>{" "}
+          Executors, you can’t use Delta Executor on Mobile unless or until you
+          have obtained a key.
+        </p>
+
+        <p className="text-white mt-4">
+          If you are here to get Delta Mobile key then don’t look further
+          because we have you covered.
+        </p>
+
+        <p className="text-white mt-4">
+          Without any further ado, let’s get started:
+        </p>
+
+        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
+          <div className="shrink-0">
+            <img
+              className="h-12 w-12"
+              src="/img/logo.svg"
+              alt="ChitChat Logo"
+            />
+          </div>
+          <div>
+            <div className="text-xl font-medium text-black">ChitChat</div>
+            <p className="text-slate-500">You have a new message!</p>
+          </div>
+        </div>
+
+        <div className="">
+          <h1 className="text-blue-600 text-4xl font-bold text-center">
+            Getting Delta Mobile Executor Key
+          </h1>
+
+          <p className="text-white mt-4">
+            The procedure to obtain{" "}
+            <a className="text-blue-600" href="">
+              Delta Mobile Executor
             </a>{" "}
-            on your PC? Well, we have written an ultimate guide explaining how
-            to download, install and use it to run Roblox scripts on Windows.
+            key is straightforward.
           </p>
-          <p className="mt-4 text-white">
-            There are plenty of Roblox Mobile Executors like Arceus X, CodeX and
-            Hydrogen but they can’t be used on PC without using Emulators.
+          <p className="text-white mt-4">
+            However, if you don’t know the process then follow the steps written
+            below :
           </p>
-          <p className="mt-4 text-white">
-            Fortunately, Delta has its PC version as well. Since the process of
-            downloading and using Delta Executor on PC and Mobile is a bit
-            different, we have created a separate guide for both.
-          </p>
-          <p className="mt-4 text-white">
-            In this post, we will walk you through the process of downloading
-            Delta Executor’s PC version.
-          </p>
-          <p className="mt-4 text-white">
-            Apart from providing a direct download link, we will explain how to
-            install and use Delta Executor on PC to run Roblox scripts.
-          </p>
-          <p className="mt-4 text-white">
-            Without any further ado, let’s get started :
-          </p>
+
+          <ul className="list-decimal text-white ml-8">
+            <li>
+              First, you need to download and install Delta Mobile from its
+              official website, delta-executor.com.
+            </li>
+            <li>
+              Once you have successfully installed it on your phone, launch the
+              executor.
+            </li>
+            <li>
+              When you launch it on your phone, you will be asked to enter your
+              Delta Mobile Key.
+            </li>
+            <li>Enter your Delta Key if you have already obtained it.</li>
+            <li>
+              If you have not gotten your key yet, click on the Get Key button.
+            </li>
+            <li>
+              When you click on it, a link will be copied into your Clipboard.
+            </li>
+            <li>Now, open an Internet Browser and paste the link.</li>
+            <li>After pasting the link, search for it.</li>
+            <li>
+              When you do so, you will be redirected to the Work.ink page.
+            </li>
+            <li>
+              There, you need to scroll down and click on the Go To Destination
+              button.
+            </li>
+            <li>
+              When you click on it, you will be asked to wait for a few seconds
+              or until the loading is completed.
+            </li>
+            <li>
+              Once it is completed, click on the ‘Proceed To Target’. button.
+            </li>
+            <li>
+              When you click on this button, a lot of random pages will be
+              opened.
+            </li>
+            <li>
+              You need to wait all pages and keep click on the ‘Proceed To
+              Target’ button until you get your Delta Mobile key.
+            </li>
+            <li>
+              Once you have got the key, copy it and head back to the Key
+              Window.
+            </li>
+            <li>There, you need to paste the key.</li>
+            <li>Once done, click on the ‘Continue’ button.</li>
+            <li>
+              When you do so, the Delta UI will appear on the screen. That’s it.
+            </li>
+          </ul>
         </div>
-        <h1 className="text-blue-600 text-4xl text-center font-bold">
-          Downloading Delta Executor on PC
-        </h1>
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
-        </div>
-        <img
-          src="/Image/Delta-Executor-PC.webp"
-          className="rounded mt-4"
-          width={1000}
-          height={500}
-          alt="Picture of the author"
-        />
-        <p className="mt-4 text-white">
-          Before I explain the process of downloading and using Delta Executor
-          on Windows, let me tell you that you can’t use it if you have an
-          Antivirus installed on your PC.
-        </p>
-        <p className="mt-4 text-white">
-          To use Delta Executor smoothly, you need to disable your Antivirus.
-        </p>
-        <p className="mt-4 text-white">
-          To do so, you need to open up the Windows search option and type
-          <span className="font-bold"> ‘Windows Security’</span> and then click
-          on it.
-        </p>
-        <p className="mt-4 text-white">
-          After that, you need to click on the{" "}
-          <span className="font-bold"> ‘Virus & threat protection‘</span>
-          option.
-        </p>
-        <p className="mt-4 text-white">
-          Now, click on the<span className="font-bold"> ‘Manage Settings’</span>{" "}
-          option.
-        </p>
-        <p className="mt-4 text-white">
-          When you do so, you will see multiple options. All you need to do is
-          disable the<span className="font-bold"> ‘Real-time protection’</span>{" "}
-          option.
-        </p>
-        <p className="mt-4 text-white">
-          Once you have it disabled, click on the following Download Now button.
-        </p>
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
-        </div>
-        <div className="text-white text-center mt-4">
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center text-center">
-            <svg
-              className="fill-current w-4 h-4 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-            </svg>
-            <span>Download</span>
-          </button>
-        </div>
-        <div className="text-white text-center mt-4">
-          <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center text-center">
-            <svg
-              viewBox="0 0 576 512"
-              xmlns="http://www.w3.org/2000/svg"
-              className="fill-current w-4 h-8 mr-2"
-            >
-              <path d="M420.6 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.9-83a10 10 0 1 0 -17.3-10h0l-48.5 84.1a301.3 301.3 0 0 0 -246.6 0L116.2 64.5a10 10 0 1 0 -17.3 10h0l47.9 83C64.5 202.2 8.2 285.6 0 384H576c-8.2-98.5-64.5-181.8-146.9-226.6"></path>
-            </svg>
-            <span>Android Version</span>
-          </button>
-        </div>
+
         <p className="text-white mt-4">
-          Unlike other websites, we have provided direct download link. Yes,
-          when you click on the above Download Now button, the setup file of
-          Delta Executor PC will begin downloading.
-        </p>
-        <p className="text-white mt-4">
-          Once downloaded, go to the Download folder and double click on the
-          Delta Executor.exe file to begin the installation process.
-        </p>
-        <p className="text-white mt-4">
-          When you do so, you might see a Red window that says{" "}
-          <span className="font-bold"> ‘Malicious file’</span>.
-        </p>
-        <p className="text-white mt-4">
-          In this case, you need to click on the{" "}
-          <span className="font-bold"> ‘More info’</span> and then{" "}
-          <span className="font-bold"> ‘Run Anyway’</span>
-          options.
-        </p>
-        <p className="text-white mt-4">
-          After that, you need to wait for a while. Once the process is
-          completed, you will have the GUI of Delta Executor opened on the
-          screen.
-        </p>
-        <p className="text-white mt-4">
-          The best thing about Delta Executor is it has a Script Hub containing
-          plenty of Scripts.
-        </p>
-        <p className="text-white mt-4">
-          What makes Delta Executor massively popular among Roblox exploiters is
-          it supports more than 10 languages.
-        </p>
-        <p className="text-white mt-4">
-          Now, you need to open Microsoft Store and install Roblox. Once
-          installed, log into your Roblox account and search for your favorite
-          game.
-        </p>
-        <p className="text-white mt-4">
-          After that, click on the Play button. Once the game is opened, open
-          the Delta Executor GUI and then click on the Inject button.
-        </p>
-        <p className="text-white mt-4">
-          When you do so, you will see a pop up window that says ‘Successfully
-          attached to Roblox’.
-        </p>
-        <p className="text-white mt-4">
-          Now, paste your game script into the executor window and then click on
-          the ‘Execute’ button.
-        </p>
-        <p className="text-white mt-4">
-          When you do so, the script will load into the screen allowing you to
-          enable your favorite feature.
-        </p>
-        <p className="text-white mt-4">
-          That’s all you need to know about how to download and use{" "}
-          <span className="text-blue-600">Delta Executor on a PC</span>.
+          That’s all you need to know about how to get Delta Mobile key.
         </p>
 
         <div className="border border-blue-600 rounded mt-4">
