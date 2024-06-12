@@ -177,10 +177,7 @@ export default function DeltaExecutorKey() {
           <form className="text-white p-4">
             <div className="grid gap-6 mb-6 md:grid-cols-2">
               <div>
-                <label
-                  for="first_name"
-                  className="block mb-2 text-sm font-medium text-white"
-                >
+                <label className="block mb-2 text-sm font-medium text-white">
                   First name
                 </label>
                 <input
@@ -192,10 +189,7 @@ export default function DeltaExecutorKey() {
                 />
               </div>
               <div>
-                <label
-                  for="last_name"
-                  className="block mb-2 text-sm font-medium text-white"
-                >
+                <label className="block mb-2 text-sm font-medium text-white">
                   Last name
                 </label>
                 <input
@@ -207,10 +201,7 @@ export default function DeltaExecutorKey() {
                 />
               </div>
               <div>
-                <label
-                  for="company"
-                  className="block mb-2 text-sm font-medium text-white"
-                >
+                <label className="block mb-2 text-sm font-medium text-white">
                   Company
                 </label>
                 <input
@@ -222,10 +213,7 @@ export default function DeltaExecutorKey() {
                 />
               </div>
               <div>
-                <label
-                  for="phone"
-                  className="block mb-2 text-sm font-medium text-white"
-                >
+                <label className="block mb-2 text-sm font-medium text-white">
                   Phone number
                 </label>
                 <input
@@ -238,10 +226,7 @@ export default function DeltaExecutorKey() {
                 />
               </div>
               <div>
-                <label
-                  for="website"
-                  className="block mb-2 text-sm font-medium text-white"
-                >
+                <label className="block mb-2 text-sm font-medium text-white">
                   Website URL
                 </label>
                 <input
@@ -253,10 +238,7 @@ export default function DeltaExecutorKey() {
                 />
               </div>
               <div>
-                <label
-                  for="visitors"
-                  className="block mb-2 text-sm font-medium text-white"
-                >
+                <label className="block mb-2 text-sm font-medium text-white">
                   Unique visitors (per month)
                 </label>
                 <input
@@ -269,10 +251,7 @@ export default function DeltaExecutorKey() {
               </div>
             </div>
             <div className="mb-6">
-              <label
-                for="email"
-                className="block mb-2 text-sm font-medium text-white"
-              >
+              <label className="block mb-2 text-sm font-medium text-white">
                 Email address
               </label>
               <input
@@ -284,10 +263,7 @@ export default function DeltaExecutorKey() {
               />
             </div>
             <div className="mb-6">
-              <label
-                for="password"
-                className="block mb-2 text-sm font-medium text-white"
-              >
+              <label className="block mb-2 text-sm font-medium text-white">
                 Password
               </label>
               <input
@@ -299,10 +275,7 @@ export default function DeltaExecutorKey() {
               />
             </div>
             <div className="mb-6">
-              <label
-                for="confirm_password"
-                className="block mb-2 text-sm font-medium text-white"
-              >
+              <label className="block mb-2 text-sm font-medium text-white">
                 Confirm password
               </label>
               <input
@@ -323,10 +296,7 @@ export default function DeltaExecutorKey() {
                   required
                 />
               </div>
-              <label
-                for="remember"
-                className="ms-2 text-sm font-medium text-white"
-              >
+              <label className="ms-2 text-sm font-medium text-white">
                 Save my name, email, and website in this browser for the next
                 time I comment & I agree with the{" "}
                 <a
@@ -340,12 +310,9 @@ export default function DeltaExecutorKey() {
             </div>
             <div className="w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
               <div className="px-4 py-2 bg-white rounded-t-lg dark:bg-gray-800">
-                <label for="comment" className="sr-only">
-                  Your comment
-                </label>
+                <label className="sr-only">Your comment</label>
                 <textarea
                   id="comment"
-                  rows="4"
                   className="w-full px-0 text-sm text-gray-900 bg-white border-0 dark:bg-gray-800 focus:ring-0 dark:text-white dark:placeholder-gray-400"
                   placeholder="Write a comment..."
                   required
