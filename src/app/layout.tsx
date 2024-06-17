@@ -47,7 +47,7 @@ export default function RootLayout({
               <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a href="/" className="flex items-center">
                   <img
-                    src="https://flowbite.com/docs/images/logo.svg"
+                    src="/Image/Delta-Executor-official-logo.webp"
                     className="mr-3 h-6 sm:h-9"
                     alt="Flowbite Logo"
                   />

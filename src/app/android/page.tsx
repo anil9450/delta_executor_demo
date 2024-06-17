@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ContactUs() {
+export default function Android() {
   return (
     <>
       <div className="bg-black mb-2">
@@ -126,9 +126,7 @@ export default function ContactUs() {
                 </p>
                 <p className="text-white mt-4">
                   Since there was no official site available to{" "}
-                  <span className="text-blue-600">
-                    download Delta Executor APK
-                  </span>{" "}
+                  <a className="text-blue-600">download Delta Executor APK</a>{" "}
                   files, we decided to launch a website providing a safe and
                   secure file for Mobile and PC.
                 </p>
@@ -230,7 +228,10 @@ export default function ContactUs() {
           </div>
 
           <div className="text-white text-center mt-4">
-            <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center text-center">
+            <a
+              href="download"
+              className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center text-center"
+            >
               <svg
                 className="fill-current w-4 h-4 mr-2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +240,7 @@ export default function ContactUs() {
                 <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
               </svg>
               <span>Download</span>
-            </button>
+            </a>
           </div>
 
           <p className="mt-4 text-white">
