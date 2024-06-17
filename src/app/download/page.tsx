@@ -288,7 +288,7 @@ export default function DownloadVersion() {
             <tbody>
               {deltaExecutorVersions.map((res) => {
                 return (
-                  <tr>
+                  <tr key={res.title}>
                     <td className="border border-slate-300">{res.title}</td>
                     <td className="border border-slate-300 text-blue-600">
                       <a href="/">{res.version}</a>
