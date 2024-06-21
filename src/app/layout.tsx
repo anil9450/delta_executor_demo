@@ -58,9 +58,10 @@ export default function RootLayout({
                     Delta Executor
                   </span>
                 </a>
+
                 <div className="flex items-center lg:order-2">
                   <button
-                    data-collapse-toggle="mobile-menu-2"
+                    data-collapse-toggle="#mobile-menu-2"
                     type="button"
                     className="inline-flex items-center p-2 ml-1 text-sm 
                     rounded-lg lg:hidden focus:outline-none focus:ring-2
@@ -95,8 +96,9 @@ export default function RootLayout({
                     </svg>
                   </button>
                 </div>
+
                 <div
-                  className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+                  className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
                   id="mobile-menu-2"
                 >
                   <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">

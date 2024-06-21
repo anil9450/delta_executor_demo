@@ -6,7 +6,7 @@ export default function Windows() {
           Delta Executor
         </a>
         <span className="text-white"> » </span>
-        <a className="text-blue-600" href="">
+        <a className="text-blue-600" href="blog">
           Blogs
         </a>
         <span className="text-white"> » </span>
@@ -16,7 +16,10 @@ export default function Windows() {
         </span>
         <p className="text-white mt-4">
           June 1, 2024 by
-          <span className="text-blue-600"> Delta Team</span>
+          <a className="text-blue-600" href="blog">
+            {" "}
+            Delta Team
+          </a>
         </p>
         <div className="mt-4">
           <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
