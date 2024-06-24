@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 async function getData() {
-    const res = await fetch('http://blog-headless.local/wp-json/wp/v2/posts?_embed', { cache: 'no-store' })
+    const res = await fetch('https://sarkariresultportals.com/wp-json/wp/v2/posts', { cache: 'no-store' })
     return res.json()
 }
 
