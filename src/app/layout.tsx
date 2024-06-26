@@ -68,7 +68,7 @@ export default function RootLayout({
                     data-collapse-toggle="#mobile-menu-2"
                     type="button"
                     className="inline-flex items-center p-2 ml-1 text-sm 
-                    rounded-lg lg:hidden focus:outline-none focus:ring-2
+                    rounded-lg lg:hidden md:hidden focus:outline-none focus:ring-2
                      focus:ring-gray-200"
                     aria-controls="mobile-menu-2"
                     aria-expanded="false"
@@ -112,7 +112,7 @@ export default function RootLayout({
                         className="block py-2 pr-4 pl-3 border-b
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent 
                          lg:border-0 lg:hover:text-primary-700 lg:p-0 
-                          lg:dark:hover:text-white lg:dark:hover:bg-transparent"
+                          lg:dark:hover:text-white lg:dark:hover:bg-transparent active:text-blue-500"
                       >
                         Delta Executor Key
                       </Link>
@@ -124,7 +124,7 @@ export default function RootLayout({
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent 
                          lg:border-0 lg:hover:text-primary-700 lg:p-0 
                           lg:dark:hover:text-white 
-                            lg:dark:hover:bg-transparent"
+                            lg:dark:hover:bg-transparent active:text-blue-500"
                       >
                         Delta Executor PC
                       </Link>
@@ -135,7 +135,7 @@ export default function RootLayout({
                         className="block py-2 pr-4 pl-3 border-b
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent 
                          lg:border-0 lg:hover:text-primary-700 lg:p-0 
-                          lg:dark:hover:text-white lg:dark:hover:bg-transparent"
+                          lg:dark:hover:text-white lg:dark:hover:bg-transparent active:text-blue-500"
                       >
                         Discord Server
                       </Link>
@@ -146,7 +146,7 @@ export default function RootLayout({
                         className="block py-2 pr-4 pl-3 border-b
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent
                           lg:border-0 lg:hover:text-primary-700 lg:p-0
-                           lg:dark:hover:text-white lg:dark:hover:bg-transparent"
+                           lg:dark:hover:text-white lg:dark:hover:bg-transparent active:text-blue-500"
                       >
                         Server Status
                       </Link>
@@ -166,9 +166,9 @@ export default function RootLayout({
             >
               <span className="text-sm sm:text-center">
                 © 2023{" "}
-                <a href="/" className="hover:underline">
+                <Link href="/" className="hover:underline active:text-blue-500">
                   Delta Executor™
-                </a>
+                </Link>
                 . All Rights Reserved.
                 <Link href="https://www.dmca.com/Protection/Status.aspx?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4&cdnrdr=1&refurl=https://delta-executor.com/">
                   <Image
@@ -185,50 +185,22 @@ export default function RootLayout({
                 <li>
                   <Link
                     href="/privacy-policy/"
-                    className="hover:underline me-4 md:me-6"
+                    className="hover:underline me-4 md:me-6 active:text-blue-500"
                   >
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact-us/" className="hover:underline">
+                  <Link
+                    href="/contact-us/"
+                    className="hover:underline active:text-blue-500"
+                  >
                     Contact
                   </Link>
                 </li>
               </ul>
             </div>
           </footer>
-
-          {/* <footer>
-            <div className="">
-              <ul className="flex items-center justify-center p-8 bg-black text-white space-x-80 font-bold">
-                <li>
-                  <h1>
-                    Copyright © 2023 -
-                    <a href="#" className="text-blue-600">
-                      Delta Executor
-                    </a>
-                    <span className="px-2">All right reserved.</span>
-                    <img
-                      src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4"
-                      alt="DMCA.com Protection Status"
-                      className="px-32"
-                    />
-                  </h1>
-                </li>
-                <li>
-                  <h1>
-                    <a href="/privacy-policy/" className="text-blue-600 px-6">
-                      Privacy Policy
-                    </a>
-                    <a href="/contact-us/" className="text-blue-600">
-                      Contact Us
-                    </a>
-                  </h1>
-                </li>
-              </ul>
-            </div>
-          </footer> */}
         </div>
       </body>
     </html>

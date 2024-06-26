@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Date } from "date-fns";
+import moment from 'moment';
+
 
 async function getData() {
     const res = await fetch('https://sarkariresultportals.com/wp-json/wp/v2/posts', { cache: 'no-store' })
@@ -8,7 +9,6 @@ async function getData() {
 
 export default async function Blog() {
     const data = await getData()
-
     return (
         <main className="bg-black">
             <div className="max-w-4xl mx-auto ml-8 mr-8">
@@ -25,7 +25,9 @@ export default async function Blog() {
                                         {post['title']['rendered']}
                                     </h3>
                                     <span className="text-green-500">
-                                        <Date dateString={post.date} />
+                                        {moment(post.date).format(
+                                            "DD-MM-YYYY"
+                                        )}
                                     </span>
                                     <div className="text-white">
                                         <div dangerouslySetInnerHTML={{ __html: post['excerpt']['rendered'] }} />

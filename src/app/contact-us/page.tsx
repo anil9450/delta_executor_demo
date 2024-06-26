@@ -5,7 +5,7 @@ import Popup from "../components/popup";
 export default function ContactUs() {
   return (
     <div className="bg-black">
-      <h1 className="text-blue-600 text-4xl ml-8">Contact Us</h1>
+      <h1 className="text-blue-600 text-4xl ml-8 font-bold">Contact Us</h1>
 
       <div className="mt-4">
         <Popup />
@@ -14,12 +14,16 @@ export default function ContactUs() {
       <div className="ml-8 mt-4">
         <p className="text-white mb-2">
           Thank you for visiting
-          <Link href="#" className="text-blue-600 ml-1">
+          <Link href="/" className="text-blue-600 ml-1">
             our website.
           </Link>
           <span className="ml-1">
             if you want to contact us, please send email to
-            <Link href="#" className="text-blue-600 ml-1">
+            <Link
+              className="text-blue-600 ml-1"
+              href="#"
+              // href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=jrjtXGkPNNhLkdJhjtvpVnTbXMTMzHvWkVHBxmMlNFJzZFbSwqwLcqccrdJPNMLqMvzVRBrR"
+            >
               contact.deltaexecutor@gmail.com.
             </Link>
           </span>
