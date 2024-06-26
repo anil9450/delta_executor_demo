@@ -1,14 +1,18 @@
+import Link from "next/link";
+import Image from "next/image";
+import Popup from "../components/popup";
+
 export default function DeltaExecutorKey() {
   return (
     <div className="bg-black">
       <div className="ml-8 mr-8 text-justify mb-2">
-        <a className="text-blue-600" href="/">
+        <Link className="text-blue-600" href="/">
           Delta Executor
-        </a>
+        </Link>
         <span className="text-white"> » </span>
-        <a className="text-blue-600" href="blog">
+        <Link className="text-blue-600" href="blog">
           Blogs
-        </a>
+        </Link>
         <span className="text-white"> » </span>
         <span className="text-white">
           {" "}
@@ -21,35 +25,25 @@ export default function DeltaExecutorKey() {
 
         <p className="text-white mt-4">
           June 1 , 2024 by
-          <a className="text-blue-600" href="">
+          <Link className="text-blue-600" href="#">
             {" "}
             Delta Team
-          </a>
+          </Link>
         </p>
 
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
+        <div className="mt-4">
+          <Popup />
         </div>
 
         <p className="text-white mt-4">
           Want to run{" "}
-          <a className="text-blue-600" href="">
+          <Link className="text-blue-600" href="">
             Roblox
-          </a>{" "}
+          </Link>{" "}
           Scripts but don’t know how to get the
-          <a className="text-blue-600" href="">
+          <Link className="text-blue-600" href="">
             Delta Mobile key
-          </a>
+          </Link>
           .
         </p>
 
@@ -68,9 +62,9 @@ export default function DeltaExecutorKey() {
 
         <p className="text-white mt-4">
           Like Hydrogen and other{" "}
-          <a className="text-blue-600" href="">
+          <Link className="text-blue-600" href="">
             Roblox
-          </a>{" "}
+          </Link>{" "}
           Executors, you can’t use Delta Executor on Mobile unless or until you
           have obtained a key.
         </p>
@@ -84,18 +78,8 @@ export default function DeltaExecutorKey() {
           Without any further ado, let’s get started:
         </p>
 
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
+        <div className="mt-4">
+          <Popup />
         </div>
 
         <div className="">
@@ -105,9 +89,9 @@ export default function DeltaExecutorKey() {
 
           <p className="text-white mt-4">
             The procedure to obtain{" "}
-            <a className="text-blue-600" href="">
+            <Link className="text-blue-600" href="">
               Delta Mobile Executor
-            </a>{" "}
+            </Link>{" "}
             key is straightforward.
           </p>
           <p className="text-white mt-4">

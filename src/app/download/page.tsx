@@ -1,3 +1,7 @@
+import Link from "next/link";
+import Image from "next/image";
+import Popup from "../components/popup";
+
 export default function DownloadVersion() {
   const deltaExecutorVersions = [
     {
@@ -59,19 +63,7 @@ export default function DownloadVersion() {
   return (
     <div className="bg-black mb-2">
       <div className="ml-8 mr-8 text-justify">
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message</p>
-          </div>
-        </div>
+        <Popup />
 
         <h1 className="text-center text-blue-600 text-4xl font-bold mt-4">
           How To Download Delta Executor [Delta X 2.0]
@@ -113,23 +105,12 @@ export default function DownloadVersion() {
           Without any further ado, let’s get started :
         </p>
 
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-
-          <div className="">
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message</p>
-          </div>
+        <div className="mt-4">
+          <Popup />
         </div>
 
         <div className="mt-6 flex items-center justify-center">
-          <a
+          <Link
             className="bg-red-500 p-3 text-white rounded-lg w-full max-w-96 hover:bg-sky-300 hover:text-black"
             href="https://discord.com/invite/eF3KJ9dA"
           >
@@ -144,9 +125,9 @@ export default function DownloadVersion() {
               </svg>
               <span className="font-bold text-xl">JOIN DISCORD SERVER</span>
             </span>
-          </a>
+          </Link>
 
-          <a
+          <Link
             className="bg-red-500 p-3 text-white rounded-lg w-full max-w-96 mx-3 hover:bg-sky-300 hover:text-black"
             href="https://t.me/RobloxExecutors"
           >
@@ -161,7 +142,7 @@ export default function DownloadVersion() {
               </svg>
               <span className="font-bold text-xl">JOIN TELEGRAM GROUP</span>
             </span>
-          </a>
+          </Link>
         </div>
 
         <h1 className="text-center text-blue-600 text-4xl font-bold mt-4">
@@ -246,22 +227,12 @@ export default function DownloadVersion() {
           Mobile and run scripts.
         </p>
 
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message</p>
-          </div>
+        <div className="mt-4">
+          <Popup />
         </div>
 
         <div className="text-white text-center mt-4">
-          <a
+          <Link
             download
             href="https://archive.org/download/deltax_202311/delta_2.0_new.apk"
             className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center text-center"
@@ -274,7 +245,7 @@ export default function DownloadVersion() {
               <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
             </svg>
             <span>Download</span>
-          </a>
+          </Link>
         </div>
 
         <div className="text-white mt-4">

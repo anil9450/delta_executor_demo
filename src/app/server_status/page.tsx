@@ -1,3 +1,7 @@
+import Link from "next/link";
+import Image from "next/image";
+import Popup from "../components/popup";
+
 export default function Server_Status() {
   return (
     <div className="bg-black mb-2">
@@ -6,33 +10,20 @@ export default function Server_Status() {
           Delta Executor Server Status: Is Delta Server Down? (June 2024)
         </h1>
 
-        <div
-          className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center 
-            space-x-4 mt-4"
-        >
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
+        <div className="mt-4">
+          <Popup />
         </div>
 
         <p className="text-white mt-4">
           Delta is one of the best{" "}
-          <a className="text-blue-600" href="">
+          <Link className="text-blue-600" href="">
             Roblox
-          </a>{" "}
+          </Link>{" "}
           Executors for Windows and Mobile. Like other Roblox exploits, Delta
           also goes offline when{" "}
-          <a className="text-blue-600" href="">
+          <Link className="text-blue-600" href="">
             Roblox
-          </a>{" "}
+          </Link>{" "}
           pushes its new update.
         </p>
 
@@ -56,9 +47,9 @@ export default function Server_Status() {
 
         <p className="text-white mt-4">
           In one of our guides, we have explained how to{" "}
-          <a className="text-blue-600 font-bold" href="">
+          <Link className="text-blue-600 font-bold" href="">
             fix Delta Roblox Upgrade error
-          </a>
+          </Link>
           . If you are getting this error, click on the link.
         </p>
 
@@ -69,9 +60,9 @@ export default function Server_Status() {
 
         <p className="text-white mt-4">
           Being a{" "}
-          <a className="text-blue-600 font-bold" href="">
+          <Link className="text-blue-600 font-bold" href="">
             Delta Executor’s official website
-          </a>{" "}
+          </Link>{" "}
           , we try our best to provide every information you must know.
         </p>
 
@@ -106,9 +97,9 @@ export default function Server_Status() {
 
         <p className="text-white mt-4">
           Whenever a new{" "}
-          <a className="text-blue-600" href="">
+          <Link className="text-blue-600" href="">
             Roblox
-          </a>{" "}
+          </Link>{" "}
           update is out, the devs of Delta put its server offline to patch the
           new update.
         </p>
@@ -121,9 +112,9 @@ export default function Server_Status() {
 
         <p className="text-white mt-4">
           You can download{" "}
-          <a className="text-blue-600 font-bold" href="">
+          <Link className="text-blue-600 font-bold" href="">
             Delta Executor’s new update
-          </a>{" "}
+          </Link>{" "}
           by clicking here.
         </p>
       </div>

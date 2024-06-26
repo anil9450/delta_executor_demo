@@ -1,23 +1,15 @@
+import Link from "next/link";
+import Image from "next/image";
+import Popup from "../components/popup";
+
 export default function PrivacyPolicy() {
   return (
     <div className="bg-black mb-2">
       <div className="ml-8 mr-8 text-justify">
         <h1 className="text-blue-600 text-4xl ml-8">Privacy Policy</h1>
 
-        <div className="mt-2">
-          <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-            <div className="shrink-0">
-              <img
-                className="h-12 w-12"
-                src="/img/logo.svg"
-                alt="ChitChat Logo"
-              />
-            </div>
-            <div>
-              <div className="text-xl font-medium text-black">ChitChat</div>
-              <p className="text-slate-500">You have a new message!</p>
-            </div>
-          </div>
+        <div className="mt-4">
+          <Popup />
         </div>
 
         <div className="ml-8">

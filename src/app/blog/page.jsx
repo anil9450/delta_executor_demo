@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Date } from "date-fns";
 
 async function getData() {
     const res = await fetch('https://sarkariresultportals.com/wp-json/wp/v2/posts', { cache: 'no-store' })
@@ -10,19 +11,22 @@ export default async function Blog() {
 
     return (
         <main className="bg-black">
-            <div className="max-w-6xl mx-auto py-20 px-4 md:px-8">
+            <div className="max-w-4xl mx-auto ml-8 mr-8">
                 <title>Heading Blog</title>
-                <h1 className="text-6xl mb-10 font-bold text-blue-600">
+                <h1 className="text-4xl mb-2 font-bold text-blue-600">
                     The Blog
                 </h1>
-                <div className="grid grid-cols-3 gap-5 w-full">
+                <div className="">
                     {data.map((post, index) => {
                         return (
                             <Link key={index} href={`/blog/${post['slug']}`}>
-                                <div className="cursor-pointer mb-10 text-white">
+                                <div className="cursor-pointer mb-2 text-white">
                                     <h3 className="font-medium mb-3 text-xl text-blue-600">
                                         {post['title']['rendered']}
                                     </h3>
+                                    <span className="text-green-500">
+                                        <Date dateString={post.date} />
+                                    </span>
                                     <div className="text-white">
                                         <div dangerouslySetInnerHTML={{ __html: post['excerpt']['rendered'] }} />
                                     </div>

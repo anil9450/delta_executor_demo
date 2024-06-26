@@ -1,24 +1,21 @@
+import Link from "next/link";
 import Image from "next/image";
+import Popup from "../components/popup";
 
 export default function Android() {
+  const accordion = [
+    {
+      title: "Is Dowloading Delta Executor is Safe?",
+      content:
+        "Yes, downloading Delta Executor is safe if you do it from its official website. If you download it from a random site available on the web, your device might likely be infected with",
+    },
+  ];
+
   return (
     <>
       <div className="bg-black mb-2">
         <div className="ml-8 mr-8 text-justify">
-          <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-            <div className="shrink-0">
-              <img
-                className="h-12 w-12"
-                src="/img/logo.svg"
-                alt="ChitChat Logo"
-              />
-            </div>
-
-            <div>
-              <div className="text-xl font-medium text-black">ChitChat</div>
-              <p className="text-slate-500">You have a new message</p>
-            </div>
-          </div>
+          <Popup />
 
           <h1 className="text-center text-white text-4xl font-bold mt-4">
             Delta Executor V624 or Delta X [2.0] (v98_)
@@ -72,19 +69,9 @@ export default function Android() {
             Without any further ado, let’s get started:
           </p>
 
-          <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-            <div className="shrink-0">
-              <img
-                className="h-12 w-12"
-                src="/img/logo.svg"
-                alt="ChitChat Logo"
-              />
-            </div>
-            <div>
-              <div className="text-xl font-medium text-black">ChitChat</div>
-              <p className="text-slate-500">You have a new message</p>
-            </div>
-          </div>
+          <p className="mt-4">
+            <Popup />
+          </p>
 
           <p className="text-red-700 bg-yellow-200 p-4 mt-4 rounded">
             <span className="font-bold">Warning: Delta-Executor.com</span> is an
@@ -213,19 +200,9 @@ export default function Android() {
             <li>That’s it.</li>
           </div>
 
-          <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-            <div className="shrink-0">
-              <img
-                className="h-12 w-12"
-                src="/img/logo.svg"
-                alt="ChitChat Logo"
-              />
-            </div>
-            <div>
-              <div className="text-xl font-medium text-black">ChitChat</div>
-              <p className="text-slate-500">You have a new message</p>
-            </div>
-          </div>
+          <span className="mt-4">
+            <Popup />
+          </span>
 
           <div className="text-white text-center mt-4">
             <a

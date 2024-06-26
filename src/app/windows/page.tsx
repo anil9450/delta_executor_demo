@@ -1,14 +1,18 @@
+import Link from "next/link";
+import Image from "next/image";
+import Popup from "../components/popup";
+
 export default function Windows() {
   return (
     <div className="bg-black">
       <div className="ml-8 mr-8 text-justify mb-2">
-        <a className="text-blue-600" href="/">
+        <Link className="text-blue-600" href="/">
           Delta Executor
-        </a>
+        </Link>
         <span className="text-white"> » </span>
-        <a className="text-blue-600" href="blog">
+        <Link className="text-blue-600" href="blog">
           Blogs
-        </a>
+        </Link>
         <span className="text-white"> » </span>
         <span className="text-white">
           {" "}
@@ -16,30 +20,21 @@ export default function Windows() {
         </span>
         <p className="text-white mt-4">
           June 1, 2024 by
-          <a className="text-blue-600" href="blog">
+          <Link className="text-blue-600" href="blog">
             {" "}
             Delta Team
-          </a>
+          </Link>
         </p>
         <div className="mt-4">
-          <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-            <div className="shrink-0">
-              <img
-                className="h-12 w-12"
-                src="/img/logo.svg"
-                alt="ChitChat Logo"
-              />
-            </div>
-            <div>
-              <div className="text-xl font-medium text-black">ChitChat</div>
-              <p className="text-slate-500">You have a new message!</p>
-            </div>
+          <div className="mt-4">
+            <Popup />
           </div>
+
           <p className="mt-4 text-white">
             Want to download{" "}
-            <a className="text-blue-600" href="/">
+            <Link className="text-blue-600" href="/">
               Delta Executor
-            </a>{" "}
+            </Link>{" "}
             on your PC? Well, we have written an ultimate guide explaining how
             to download, install and use it to run Roblox scripts on Windows.
           </p>
@@ -67,20 +62,12 @@ export default function Windows() {
         <h1 className="text-blue-600 text-4xl text-center font-bold">
           Downloading Delta Executor on PC
         </h1>
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
+
+        <div className="mt-4">
+          <Popup />
         </div>
-        <img
+
+        <Image
           src="/Image/Delta-Executor-PC.webp"
           className="rounded mt-4"
           width={1000}
@@ -117,18 +104,8 @@ export default function Windows() {
         <p className="mt-4 text-white">
           Once you have it disabled, click on the following Download Now button.
         </p>
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
+        <div className="mt-4">
+          <Popup />
         </div>
         <div className="text-white text-center mt-4">
           <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center text-center">

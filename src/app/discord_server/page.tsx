@@ -1,3 +1,7 @@
+import Link from "next/link";
+import Image from "next/image";
+import Popup from "../components/popup";
+
 export default function Discord_Server() {
   return (
     <div className="bg-black mb-2">
@@ -5,28 +9,20 @@ export default function Discord_Server() {
         <h1 className="text-blue-600 font-bold text-center text-4xl">
           Delta Executor Discord Server Link (June 2024)
         </h1>
-        <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-4">
-          <div className="shrink-0">
-            <img
-              className="h-12 w-12"
-              src="/img/logo.svg"
-              alt="ChitChat Logo"
-            />
-          </div>
-          <div>
-            <div className="text-xl font-medium text-black">ChitChat</div>
-            <p className="text-slate-500">You have a new message!</p>
-          </div>
-        </div>
+
+        <p className="mt-4">
+          <Popup />
+        </p>
+
         <p className="text-white mt-4">
           Do you want to join the official Delta Executor’s Discord server? If
           your answer is YES then you have come to the right place.
         </p>
         <p className="text-white mt-4">
           There are tons of users who use{" "}
-          <a className="text-blue-600 font-bold" href="#">
+          <Link className="text-blue-600 font-bold" href="#">
             Delta exploit to run Blox Fruits scripts
-          </a>{" "}
+          </Link>{" "}
           or other scripts are currently searching for its Discord server
           because the executor is currently not working properly.
         </p>
@@ -35,18 +31,18 @@ export default function Discord_Server() {
           Notably, the devs of Delta Executor often take its server down to roll
           out new update. Whenever they put its server on maintenance, players
           get an error that says
-          <a className="text-blue-600 font-bold ml-1">
+          <Link className="text-blue-600 font-bold ml-1" href="#">
             ‘Roblox Upgrade’ whenever they launch Delta Executor on a Mobile
             device.
-          </a>
+          </Link>
         </p>
 
         <p className="text-white mt-4">
           Irrespective of what problem you are facing while downloading,
           installing or using{" "}
-          <a className="text-blue-600 font-bold ml-1">
+          <Link className="text-blue-600 font-bold ml-1" href="#">
             Delta Exploit on a Mobile
-          </a>{" "}
+          </Link>{" "}
           or PC, you could find its answer on its official Discord server.
         </p>
 

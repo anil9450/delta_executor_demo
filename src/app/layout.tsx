@@ -1,6 +1,8 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -45,8 +47,10 @@ export default function RootLayout({
           <header className="mb-2">
             <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
               <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-                <a href="/" className="flex items-center">
-                  <img
+                <Link href="/" className="flex items-center">
+                  <Image
+                    height={45}
+                    width={45}
                     src="/Image/Delta-Executor-official-logo.webp"
                     className="mr-3 h-6 sm:h-9"
                     alt="Flowbite Logo"
@@ -57,7 +61,7 @@ export default function RootLayout({
                   >
                     Delta Executor
                   </span>
-                </a>
+                </Link>
 
                 <div className="flex items-center lg:order-2">
                   <button
@@ -103,7 +107,7 @@ export default function RootLayout({
                 >
                   <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li>
-                      <a
+                      <Link
                         href="key"
                         className="block py-2 pr-4 pl-3 border-b
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent 
@@ -111,10 +115,10 @@ export default function RootLayout({
                           lg:dark:hover:text-white lg:dark:hover:bg-transparent"
                       >
                         Delta Executor Key
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="windows"
                         className="block py-2 pr-4 pl-3 border-b
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent 
@@ -123,10 +127,10 @@ export default function RootLayout({
                             lg:dark:hover:bg-transparent"
                       >
                         Delta Executor PC
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="discord_server"
                         className="block py-2 pr-4 pl-3 border-b
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent 
@@ -134,10 +138,10 @@ export default function RootLayout({
                           lg:dark:hover:text-white lg:dark:hover:bg-transparent"
                       >
                         Discord Server
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="server_status"
                         className="block py-2 pr-4 pl-3 border-b
                          border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent
@@ -145,7 +149,7 @@ export default function RootLayout({
                            lg:dark:hover:text-white lg:dark:hover:bg-transparent"
                       >
                         Server Status
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -166,28 +170,30 @@ export default function RootLayout({
                   Delta Executor™
                 </a>
                 . All Rights Reserved.
-                <a href="https://www.dmca.com/Protection/Status.aspx?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4&cdnrdr=1&refurl=https://delta-executor.com/">
-                  <img
+                <Link href="https://www.dmca.com/Protection/Status.aspx?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4&cdnrdr=1&refurl=https://delta-executor.com/">
+                  <Image
+                    height={50}
+                    width={100}
                     src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4"
                     alt="DMCA.com Protection Status"
                     className="mx-auto"
                   />
-                </a>
+                </Link>
               </span>
 
               <ul className="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
                 <li>
-                  <a
+                  <Link
                     href="/privacy-policy/"
                     className="hover:underline me-4 md:me-6"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/contact-us/" className="hover:underline">
+                  <Link href="/contact-us/" className="hover:underline">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

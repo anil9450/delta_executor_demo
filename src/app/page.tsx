@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./components/button";
 import Button2 from "./components/button2";
+import Popup from "./components/popup";
 
 export default function Home() {
   return (
@@ -9,26 +10,17 @@ export default function Home() {
       <main className="">
         <div className="max-w-screen-lg mx-auto">
           <div className="middle-part bg-black text-white mb-2 p-8">
-            <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-              <div className="shrink-0">
-                <img
-                  className="h-12 w-12"
-                  src="/img/logo.svg"
-                  alt="ChitChat Logo"
-                />
-              </div>
-              <div>
-                <div className="text-xl font-medium text-black">ChitChat</div>
-                <p className="text-slate-500">You have a new message!</p>
-              </div>
+            <div>
+              <Popup />
             </div>
-
-            <span className="font-bold text-4xl flex items-center justify-center mt-6">
+            <span className="font-bold text-4xl flex items-center justify-center mt-8">
               Delta Executor
             </span>
-
             <div className="mt-6 flex items-center justify-center">
-              <Button2>
+              <Link
+                href="android"
+                className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52 mx-3 hover:bg-sky-300 hover:text-black"
+              >
                 <span className="flex space-x-4 items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -40,9 +32,9 @@ export default function Home() {
                   </svg>
                   <span className="font-bold text-xl">Android</span>
                 </span>
-              </Button2>
+              </Link>
 
-              <a
+              <Link
                 className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52 mx-3 hover:bg-sky-300 hover:text-black"
                 href="windows"
               >
@@ -57,41 +49,29 @@ export default function Home() {
                   </svg>
                   <span className="font-bold text-xl">Windows</span>
                 </span>
-              </a>
+              </Link>
             </div>
 
-            <div className="p-24 max-w-4xl mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 mt-8">
-              <div className="shrink-0">
-                <img
-                  className="h-12 w-12"
-                  src="/img/logo.svg"
-                  alt="ChitChat Logo"
-                />
-              </div>
-              <div>
-                <div className="text-xl font-medium text-black">ChitChat</div>
-                <p className="text-slate-500">You have a new message!</p>
-              </div>
+            <div className="mt-8">
+              <Popup />
             </div>
 
             <div className="flex items-center justify-center mt-8">
-              <Button>
-                <a
-                  className="font-bold text-xl flex items-center justify-center space-x-4 bg-[#0054ae] p-3 rounded-lg w-full max-w-72 hover:bg-sky-300 hover:text-black"
-                  href="key"
+              <Link
+                className="font-bold text-xl flex items-center justify-center space-x-4 bg-[#0054ae] p-3 rounded-lg w-full max-w-72 hover:bg-sky-300 hover:text-black"
+                href="key"
+              >
+                <svg
+                  viewBox="0 0 512 512"
+                  width="16"
+                  height="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="mt-1 fill-current hover:fill-current hover:text-black"
                 >
-                  <svg
-                    viewBox="0 0 512 512"
-                    width="16"
-                    height="16"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="mt-1 fill-current hover:fill-current hover:text-black"
-                  >
-                    <path d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V448h40c13.3 0 24-10.7 24-24V384h40c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z"></path>
-                  </svg>
-                  <span className="font-bold text-xl">Delta Key</span>
-                </a>
-              </Button>
+                  <path d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V448h40c13.3 0 24-10.7 24-24V384h40c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z"></path>
+                </svg>
+                <span className="font-bold text-xl">Delta Key</span>
+              </Link>
             </div>
           </div>
         </div>
