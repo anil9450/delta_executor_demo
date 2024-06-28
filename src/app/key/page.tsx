@@ -38,11 +38,11 @@ export default function DeltaExecutorKey() {
 
         <p className="text-white mt-4">
           Want to run{" "}
-          <Link className="text-blue-600" href="">
+          <Link className="text-blue-600 font-bold" href="#">
             Roblox
           </Link>{" "}
-          Scripts but don’t know how to get the
-          <Link className="text-blue-600" href="">
+          Scripts but don’t know how to get the{" "}
+          <Link className="text-blue-600" href="#">
             Delta Mobile key
           </Link>
           .
@@ -55,7 +55,7 @@ export default function DeltaExecutorKey() {
 
         <p className="text-white mt-4">
           Since Delta Mobile needs a key to run{" "}
-          <a className="text-blue-600" href="">
+          <a className="text-blue-600" href="https://www.roblox.com/">
             Roblox
           </a>{" "}
           scripts, a lot of users are having a hard time obtaining its key.
@@ -63,7 +63,7 @@ export default function DeltaExecutorKey() {
 
         <p className="text-white mt-4">
           Like Hydrogen and other{" "}
-          <Link className="text-blue-600" href="">
+          <Link className="text-blue-600 font-bold" href="#">
             Roblox
           </Link>{" "}
           Executors, you can’t use Delta Executor on Mobile unless or until you
@@ -90,7 +90,7 @@ export default function DeltaExecutorKey() {
 
           <p className="text-white mt-4">
             The procedure to obtain{" "}
-            <Link className="text-blue-600" href="">
+            <Link className="text-blue-600" href="/">
               Delta Mobile Executor
             </Link>{" "}
             key is straightforward.
@@ -103,7 +103,11 @@ export default function DeltaExecutorKey() {
           <ul className="list-decimal text-white ml-8">
             <li>
               First, you need to download and install Delta Mobile from its
-              official website, delta-executor.com.
+              official website,{" "}
+              <Link className="text-blue-600" href="/">
+                delta-executor.com
+              </Link>
+              .
             </li>
             <li>
               Once you have successfully installed it on your phone, launch the
