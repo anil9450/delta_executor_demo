@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Popup from "../components/popup";
+import Video from "../components/video";
 
 export default function DownloadVersion() {
   const deltaExecutorVersions = [
@@ -170,18 +171,8 @@ export default function DownloadVersion() {
           </ul>
         </div>
 
-        <div className="mt-4">
-          <video
-            className="w-full aspect-video rounded-lg border border-blue-500 shadow
-            shadow-blue-500/100"
-            controls
-          >
-            <source
-              src="https://docs.material-tailwind.com/demo.mp4"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
+        <div className="mt-4 rounded-lg border border-blue-500 shadow shadow-blue-500/100">
+          <Video />
         </div>
 
         <div>

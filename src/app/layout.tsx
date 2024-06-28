@@ -202,6 +202,19 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+
+        <div className="fixed bottom-6 right-6">
+          <Link
+            href="https://www.buymeacoffee.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-500 text-white font-medium rounded-md px-4 py-2 flex items-center 
+            justify-center hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg"
+          >
+            <span className="text-lg mr-2">☕</span>
+            Add a text & Link
+          </Link>
+        </div>
       </body>
     </html>
   );

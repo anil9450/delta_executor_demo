@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Popup from "../components/popup";
+import Video from "../components/video";
 
 export default function Android() {
   const accordion = [
@@ -113,7 +114,9 @@ export default function Android() {
                 </p>
                 <p className="text-white mt-4">
                   Since there was no official site available to{" "}
-                  <a className="text-blue-600">download Delta Executor APK</a>{" "}
+                  <Link className="text-blue-600" href="">
+                    download Delta Executor APK
+                  </Link>{" "}
                   files, we decided to launch a website providing a safe and
                   secure file for Mobile and PC.
                 </p>
@@ -164,18 +167,8 @@ export default function Android() {
             </li>
           </ul>
 
-          <div className="mt-4">
-            <video
-              className="w-full aspect-video rounded-lg border border-blue-500 shadow
-            shadow-blue-500/100"
-              controls
-            >
-              <source
-                src="https://docs.material-tailwind.com/demo.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
+          <div className="mt-4 rounded-lg border border-blue-500 shadow shadow-blue-500/100">
+            <Video />
           </div>
 
           <div className="list-disc text-white mt-4 ml-9">
@@ -205,7 +198,7 @@ export default function Android() {
           </span>
 
           <div className="text-white text-center mt-4">
-            <a
+            <Link
               href="download"
               className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center text-center"
             >
@@ -217,7 +210,7 @@ export default function Android() {
                 <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
               </svg>
               <span>Download</span>
-            </a>
+            </Link>
           </div>
 
           <p className="mt-4 text-white">

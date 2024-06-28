@@ -33,7 +33,6 @@ export default function Home() {
                   <span className="font-bold text-xl">Android</span>
                 </span>
               </Link>
-
               <Link
                 className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52 mx-3 hover:bg-sky-300 hover:text-black"
                 href="windows"
@@ -51,11 +50,9 @@ export default function Home() {
                 </span>
               </Link>
             </div>
-
             <div className="mt-8">
               <Popup />
             </div>
-
             <div className="flex items-center justify-center mt-8">
               <Link
                 className="font-bold text-xl flex items-center justify-center space-x-4 bg-[#0054ae] p-3 rounded-lg w-full max-w-72 hover:bg-sky-300 hover:text-black"
