@@ -69,14 +69,7 @@ const ContactForm = () => {
           </div>
           <label className="ms-2 text-sm font-medium text-white">
             Save my name, email, and website in this browser for the next time I
-            comment & I agree with the{" "}
-            <a
-              href="#"
-              className="text-blue-600 hover:underline dark:text-blue-500"
-            >
-              terms and conditions
-            </a>
-            .
+            comment.
           </label>
         </div>
         <div className="w-full mb-4 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-700 dark:border-gray-600">

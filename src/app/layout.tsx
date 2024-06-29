@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
+import Script from "next/script";
+
+import { NagivationBar } from "@/app/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script
+        src="https://cse.google.com/cse.js?cx=57aeca2db92a64f5c"
+        async
+        // strategy="lazyOnload"
+        // onLoad={() =>
+        //   console.log(`script loaded correctly, window.FB has been populated`)
+        // }
+      />
       <body className="{inter.className}">
         <div className="max-w-screen-lg mx-auto">
           {/*   <header>
@@ -44,8 +55,10 @@ export default function RootLayout({
             </nav>
           </header> */}
 
-          <header className="mb-2">
-            <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+          <NagivationBar />
+
+          {/* <header className="mb-2">
+            <nav className="bg-white border-gray-200 px-4 lg:px-6 lg:py-2.5 md:py-0">
               <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <Link href="/" className="flex items-center">
                   <Image
@@ -63,7 +76,7 @@ export default function RootLayout({
                   </span>
                 </Link>
 
-                <div className="flex items-center lg:order-2">
+                <div className="">
                   <button
                     data-collapse-toggle="#mobile-menu-2"
                     type="button"
@@ -102,10 +115,10 @@ export default function RootLayout({
                 </div>
 
                 <div
-                  className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+                  className="hidden justify-between items-center w-full lg:flex md:flex md:w-auto lg:w-auto lg:order-1 md:order-1"
                   id="mobile-menu-2"
                 >
-                  <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                  <ul className="flex flex-col mt-4 font-medium lg:flex-row md:flex-row md:mt-1 lg:space-x-8 lg:mt-0">
                     <li>
                       <Link
                         href="key"
@@ -155,7 +168,7 @@ export default function RootLayout({
                 </div>
               </div>
             </nav>
-          </header>
+          </header> */}
 
           {children}
 
@@ -165,11 +178,14 @@ export default function RootLayout({
               md:justify-between"
             >
               <span className="text-sm sm:text-center">
-                © 2023{" "}
-                <Link href="/" className="hover:underline active:text-blue-500">
-                  Delta Executor™
-                </Link>
-                . All Rights Reserved.
+                Copyright © 2023 -{" "}
+                <Link
+                  href="/"
+                  className="hover:no-underline hover:text-blue-500 active:text-blue-500 font-bold"
+                >
+                  Delta Executor
+                </Link>{" "}
+                All Rights Reserved.
                 <Link href="https://www.dmca.com/Protection/Status.aspx?ID=ca0ed467-dc53-4fb2-bbea-caf54c58a9b4&cdnrdr=1&refurl=https://delta-executor.com/">
                   <Image
                     height={50}
@@ -185,7 +201,7 @@ export default function RootLayout({
                 <li>
                   <Link
                     href="/privacy-policy/"
-                    className="hover:underline me-4 md:me-6 active:text-blue-500"
+                    className="hover:no-underline me-4 md:me-6 hover:text-blue-500 active:text-blue-500"
                   >
                     Privacy Policy
                   </Link>
@@ -193,7 +209,7 @@ export default function RootLayout({
                 <li>
                   <Link
                     href="/contact-us/"
-                    className="hover:underline active:text-blue-500"
+                    className="hover:no-underline hover:text-blue-500 active:text-blue-500"
                   >
                     Contact
                   </Link>
@@ -214,6 +230,7 @@ export default function RootLayout({
             <span className="text-lg mr-2">☕</span>
             Add a text & Link
           </Link>
+          /<div className="gcse-search"></div>
         </div>
       </body>
     </html>

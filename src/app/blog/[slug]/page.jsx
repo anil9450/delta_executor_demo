@@ -35,6 +35,7 @@ export default async function Page({ params }) {
                                 </div>
                             </a>
                         </div>
+
                         <div className="col-end-5 col-span-2 my-2">
                             <a href="#">
                                 <div
