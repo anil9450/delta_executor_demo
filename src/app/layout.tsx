@@ -6,6 +6,7 @@ import Image from "next/image";
 import Script from "next/script";
 
 import { NagivationBar } from "@/app/components/navbar";
+import { GoogleSearchDrawer } from "./components/drawer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -220,17 +221,15 @@ export default function RootLayout({
         </div>
 
         <div className="fixed bottom-6 right-6">
-          <Link
-            href="https://www.buymeacoffee.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
+          <GoogleSearchDrawer />
+          {/*  <button
             className="bg-blue-500 text-white font-medium rounded-md px-4 py-2 flex items-center 
             justify-center hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg"
           >
             <span className="text-lg mr-2">☕</span>
-            Add a text & Link
-          </Link>
-          /<div className="gcse-search"></div>
+          
+          </button> */}
+          {/* <div className="gcse-search"></div> */}
         </div>
       </body>
     </html>

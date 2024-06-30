@@ -18,7 +18,7 @@ export default function Home() {
             </span>
             <div className="mt-6 flex items-center justify-center">
               <Link
-                href="android"
+                href="deltaexploit"
                 className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52 mx-3 hover:bg-sky-300 hover:text-black"
               >
                 <span className="flex space-x-4 items-center justify-center">
@@ -35,7 +35,7 @@ export default function Home() {
               </Link>
               <Link
                 className="bg-[#0054ae] p-3 rounded-lg w-full max-w-52 mx-3 hover:bg-sky-300 hover:text-black"
-                href="windows"
+                href="delta-executor-pc"
               >
                 <span className="flex space-x-4 items-center justify-center">
                   <svg

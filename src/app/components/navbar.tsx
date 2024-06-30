@@ -48,12 +48,12 @@ export const NagivationBar = () => {
         </NavbarLink>
         <NavbarLink
           as={Link}
-          href="/windows"
+          href="/delta-executor-pc"
           active={pathName === "/windows"}
           className={`block py-2 pl-3 pr-4  text-gray-700 hover:bg-gray-50 md:border-0 
              md:hover:bg-transparent md:hover:text-blue-500 
           ${
-            pathName === "/windows"
+            pathName === "/delta-executor-pc"
               ? " bg-blue-500 text-white hover:text-gray-700 md:text-blue-500 md:bg-transparent"
               : ""
           }`}

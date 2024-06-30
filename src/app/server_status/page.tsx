@@ -60,7 +60,7 @@ export default function Server_Status() {
 
         <p className="text-white mt-4">
           Being a{" "}
-          <Link className="text-blue-600 font-bold" href="">
+          <Link className="text-blue-600 font-bold" href="/">
             Delta Executor’s official website
           </Link>{" "}
           , we try our best to provide every information you must know.
@@ -112,7 +112,7 @@ export default function Server_Status() {
 
         <p className="text-white mt-4">
           You can download{" "}
-          <Link className="text-blue-600 font-bold" href="">
+          <Link className="text-blue-600 font-bold" href="/download">
             Delta Executor’s new update
           </Link>{" "}
           by clicking here.

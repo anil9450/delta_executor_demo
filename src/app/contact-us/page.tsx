@@ -20,7 +20,7 @@ export default function ContactUs() {
           <span className="ml-1">
             if you want to contact us, please send email to
             <Link
-              className="text-blue-600 ml-1"
+              className="text-blue-600 ml-1 font-bold"
               href="#"
               // href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=jrjtXGkPNNhLkdJhjtvpVnTbXMTMzHvWkVHBxmMlNFJzZFbSwqwLcqccrdJPNMLqMvzVRBrR"
             >
