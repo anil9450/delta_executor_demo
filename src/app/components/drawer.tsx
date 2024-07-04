@@ -74,7 +74,7 @@ export function GoogleSearchDrawer() {
             height={25}
             width={45}
             src="/Image/Delta-Executor-official-logo.webp"
-            className="mr-0 h-0 sm:h-9"
+            className="mr-0 h-9"
             alt="Delta_Executor Logo"
           />
         </span>

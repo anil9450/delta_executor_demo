@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Popup from "../components/popup";
 import Video from "../components/video";
+import Modal from "../components/model";
 
 export default function DownloadVersion() {
   const deltaExecutorVersions = [
@@ -222,6 +223,11 @@ export default function DownloadVersion() {
           <Popup />
         </div>
 
+        <div className="text-center mt-4">
+          <Modal />
+        </div>
+
+        {/*  
         <div className="text-white text-center mt-4">
           <Link
             download
@@ -237,7 +243,8 @@ export default function DownloadVersion() {
             </svg>
             <span>Download</span>
           </Link>
-        </div>
+        </div> 
+        */}
 
         <div className="text-white mt-4">
           <table className="w-full border-separate border-spacing-2 border border-slate-400">
